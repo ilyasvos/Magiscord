@@ -1,0 +1,28 @@
+{
+  "name": "magiscord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "magister.js": "^2.0.0-alpha.9",
+    "puppeteer": "^1.12.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sj3rd/Magiscord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sj3rd/Magiscord/issues"
+  },
+  "homepage": "https://github.com/Sj3rd/Magiscord#readme"
+}
