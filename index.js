@@ -11,6 +11,16 @@ var usernameFunc = require('./lib/username')
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setActivity('Magister', { type: 'WATCHING' })
+
+  const channel = client.channels.get("463416559990341647");
+  if (!channel) return console.error("The channel does not exist!");
+  channel.join().then(connection => {
+    // Yay, it worked!
+    console.log("Successfully connected.");
+  }).catch(e => {
+    // Oh no, it errored! Let's log it to console :)
+    console.error(e);
+  });
 });
 
 client.on('message', msg => {
