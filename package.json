@@ -8,9 +8,8 @@
   },
   "dependencies": {
     "@magisterjs/dynamic-authcode": "^1.1.0",
-    "discord.js": "^11.4.2",
-    "magister.js": "^2.0.0-alpha.9",
-    "puppeteer": "^1.12.2"
+    "discord.js": "^11.5.1",
+    "magister.js": "^2.0.0-alpha.12"
   },
   "devDependencies": {},
   "scripts": {
